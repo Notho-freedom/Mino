@@ -1,0 +1,3320 @@
+//colors
+$white: #FFF;
+$color_tapa_approx: #777;
+$color_mine_shaft_approx: #333;
+$color_fuscous_gray_approx: #555;
+$color_alto_approx: #DCDDDF;
+$color_mountain_mist_approx: #999;
+$color_gallery_approx: #EEE;
+$color_pink_swan_approx: #BBB;
+$black_10: rgba(0, 0, 0, 0.1);
+$black_30: rgba(0, 0, 0, 0.3);
+$black: #000;
+$color_celeste_approx: #CCC;
+$black_20: rgba(0, 0, 0, 0.2);
+$color_wild_sand_approx: #F5F5F5;
+$black_15: rgba(0, 0, 0, 0.15);
+$color_alabaster_approx: #F9F9F9;
+$color_island_spice_approx: #FFFAEF;
+$color_raffia_approx: #ECDCB6;
+$white_50: rgba(255, 255, 255, 0.5);
+$color_driftwood_approx: #B68B53;
+$color_pot_pourri_approx: #F7E7E4;
+$color_rose_fog_approx: #ECBEB6;
+$color_chestnut_approx: #B55351;
+$color_loafer_approx: #EAF4E2;
+$color_sprout_approx: #C1DEA9;
+$color_aqua_forest_approx: #61A06F;
+$black_5: rgba(0, 0, 0, .05);
+$color_tundora_approx: #444;
+$color_scooter_approx: #29B7D3;
+$black_40: rgba(0, 0, 0, 0.4);
+$black_12_5: rgba(0, 0, 0, .125);
+$alabaster: #FAFAFA;
+$color_bon_jour_approx: #E1E1E1;
+$color_eastern_blue_approx: #248AAF;
+$color_jelly_bean_approx: #20799A;
+$color_blumine_approx: #1B6985;
+$color_chathams_blue_approx: #155167;
+$color_keppel_approx: #3CBC8D;
+$color_ocean_green_approx: #36A97F;
+$color_lochinvar_approx: #309570;
+$color_eucalyptus_approx: #277A5C;
+$color_elm_approx: #1B788A;
+$color_saffron_mango_approx: #FAC552;
+$color_saffron_approx: #F9BD39;
+$color_my_sin_approx: #F9B420;
+$color_gamboge_approx: #EEA507;
+$color_cinnabar_approx: #E9422E;
+$color_pomegranate_approx: #E52E18;
+$color_thunderbird_approx: #CE2916;
+$color_tabasco_approx: #AE2312;
+$color_woodsmoke_approx: #0D0D0D;
+$black_50: rgba(0, 0, 0, 0.5);
+$color_celeste_50_approx: rgba(204, 204, 204, 0.5);
+$color_frostee_approx: #E8F6E4;
+$color_black_haze_approx: #F6F6F6;
+$color_boston_blue_approx: #428BCA;
+$color_hippie_green_approx: #438E43;
+$color_indochine_approx: #C97600;
+$color_mexican_red_approx: #A62821;
+$color_quill_gray_approx: #D5D5D5;
+$color_suva_gray_approx: #888;
+$color_lima_approx: #78BA00;
+$color_punch_approx: #D74F2A;
+$color_san_marino_approx: #446CB3;
+$color_pickled_bluewood_approx: #34495E;
+$color_gray_nurse_approx: #E9E9E9;
+$mercury: #E5E5E5;
+$color_storm_dust_approx: #666;
+$white_80: rgba(255, 255, 255, 0.8);
+$color_ecstasy_approx: #FD7B12;
+$color_sapling_approx: #D9D9A9;
+$color_locust_approx: #ADAD88;
+$seashell: #F1F1F1;
+$white_75: rgba(255, 255, 255, 0.75);
+$gallery: #EFEFEF;
+$color_mercury_approx: #E6E6E6;
+$black_80: rgba(0, 0, 0, 0.8);
+$color_allports_approx: #0070A8;
+$color_cerulean_approx: #0E90D2;
+$color_kashmir_blue_approx: #4F619E;
+$teal: teal;
+$color_crimson_approx: #D14;
+$color_star_dust_approx: #9DA0A4;
+
+//fonts
+$font_0: Open Sans;
+$font_1: Arial;
+$font_2: sans-serif;
+$font_3: Tahoma;
+$font_4: Consolas;
+$font_5: Monaco;
+$font_6: Menlo;
+$font_7: monospace;
+
+//urls
+$url_0: url(../images/bg.png);
+$url_1: url(../images/jquery-ui/picker.png);
+
+//@extend-elements
+//original selectors
+//h1, h2, h3, h4, h5, h6
+%extend_1 {
+  color: $color_mine_shaft_approx;
+  margin-top: 0;
+}
+
+//original selectors
+//h1 small, h2 small, h3 small, h4 small, h5 small, h6 small
+%extend_2 {
+  font-size: 11px;
+  margin: 0 0 0 5px;
+}
+
+//original selectors
+//strong, b
+%extend_3 {
+  color: $color_fuscous_gray_approx;
+}
+
+//original selectors
+//a:hover, a:focus
+%extend_4 {
+  outline: 0;
+}
+
+//original selectors
+//small, .small
+%extend_5 {
+  font-size: 11px;
+}
+
+//original selectors
+//pre, code
+%extend_6 {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 1px 2px;
+}
+
+//original selectors
+//select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input, label, input, button, select, textarea
+%extend_7 {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 3px;
+  font-family: $font_0, $font_3, $font_1, $font_2;
+  font-size: 13px;
+}
+
+//original selectors
+//.input-append input, .input-prepend input, .input-append select, .input-prepend select, .input-append .uneditable-input, .input-prepend .uneditable-input
+%extend_8 {
+  border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 0 3px 3px 0;
+}
+
+//original selectors
+//.input-append input, .input-append select, .input-append .uneditable-input, .input-prepend .add-on:first-child, .input-prepend .btn:first-child
+%extend_9 {
+  border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 3px 0 0 3px;
+}
+
+//original selectors
+//.input-append .add-on, .input-prepend .add-on, .input-append .btn, .input-prepend .btn, .input-append .btn-group >.dropdown-toggle, .input-prepend .btn-group >.dropdown-toggle
+%extend_10 {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 0;
+}
+
+//original selectors
+//.input-append .add-on:last-child, .input-append .btn:last-child, .input-append .btn-group:last-child >.dropdown-toggle
+%extend_11 {
+  border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 0 3px 3px 0;
+}
+
+//original selectors
+//.radio.inline, .checkbox.inline
+%extend_12 {
+  white-space: nowrap;
+}
+
+//original selectors
+//body [class^="icon-"], body [class*=" icon-"]
+%extend_13 {
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+}
+
+//original selectors
+//.form-horizontal .control-group, .form-vertical .control-group
+%extend_14 {
+  margin-bottom: 0;
+}
+
+//original selectors
+//.form-horizontal .control-group +.control-group, .form-vertical .control-group +.control-group
+%extend_15 {
+  border-top: 1px solid $color_wild_sand_approx;
+  margin-top: 13px;
+  padding-top: 13px;
+}
+
+//original selectors
+//.navbar .nav >li.active, .navbar .nav >li.active, .navbar .nav >li.active, .navbar .nav >li:hover
+%extend_16 {
+  background: $color_alabaster_approx;
+}
+
+//original selectors
+//.navbar .nav >li.dropdown.open >.dropdown-toggle, .navbar .nav >li.dropdown.active >.dropdown-toggle, .navbar .nav >li.dropdown.open.active >.dropdown-toggle
+%extend_17 {
+  background: $white;
+  border-left: 1px solid $color_alto_approx;
+  border-right: 1px solid $color_alto_approx;
+  padding-left: 14px;
+  padding-right: 14px;
+  position: relative;
+  z-index: 9999;
+}
+
+//original selectors
+//.navbar .nav >li >.dropdown-menu::before, .navbar .nav >li >.dropdown-menu::after
+%extend_18 {
+  display: none;
+}
+
+//original selectors
+//.navbar .nav >.active >a, .navbar .nav >.active >a:hover, .navbar .nav >.active >a:focus
+%extend_19 {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-box-shadow: none;
+}
+
+//original selectors
+//.navbar .pull-right >li >.dropdown-menu, .navbar .nav >li >.dropdown-menu.pull-right
+%extend_20 {
+  left: auto;
+  right: 0;
+}
+
+//original selectors
+//.alert strong, .alert b
+%extend_21 {
+  color: inherit;
+}
+
+//original selectors
+//.alert-danger, .alert-error
+%extend_22 {
+  background: $color_pot_pourri_approx;
+  border-color: $color_rose_fog_approx;
+  color: $color_chestnut_approx;
+}
+
+//original selectors
+//.btn, .btn-box
+%extend_23 {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 3px;
+}
+
+//original selectors
+//.btn:hover, .btn-box:hover
+%extend_24 {
+  box-shadow: 0 0 2px $black_15;
+  -moz-box-shadow: 0 0 2px $black_15;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-box-shadow: 0 0 2px $black_15;
+}
+
+//original selectors
+//.btn:focus, .btn-box:focus
+%extend_25 {
+  outline: 0;
+}
+
+//original selectors
+//.btn [class^="icon-"], .btn-box [class^="icon-"], .btn [class*=" icon-"], .btn-box [class*=" icon-"]
+%extend_26 {
+  display: inline-block !important;
+  min-width: 16px;
+  text-align: center;
+}
+
+//original selectors
+//.btn.btn-mini, .btn.btn-small
+%extend_27 {
+  font-size: 11px;
+}
+
+//original selectors
+//.btn-box i, .btn-box b
+%extend_28 {
+  display: block;
+}
+
+//original selectors
+//.btn-group >.btn, .btn-group >.dropdown-menu, .btn-group >.popover
+%extend_29 {
+  font-size: 13px;
+}
+
+//original selectors
+//.btn.active:focus, .btn:active:focus, .btn:focus
+%extend_30 {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+//original selectors
+//.btn:focus, .btn:hover
+%extend_31 {
+  color: $color_tapa_approx;
+  text-decoration: none;
+}
+
+//original selectors
+//.btn.active, .btn:active
+%extend_32 {
+  background-image: none;
+  box-shadow: inset 0 3px 5px $black_12_5;
+  -webkit-box-shadow: inset 0 3px 5px $black_12_5;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  outline: 0;
+}
+
+//original selectors
+//.btn.disabled, .btn[disabled], fieldset[disabled] .btn
+%extend_33 {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  opacity: .65;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  pointer-events: none;
+}
+
+//original selectors
+//.btn-default.active, .btn-default:active, .btn-default:focus, .btn-default:hover, .open >.btn-default.dropdown-toggle
+%extend_34 {
+  background-color: $color_bon_jour_approx;
+  border-color: $color_celeste_approx;
+  color: $color_tapa_approx;
+}
+
+//original selectors
+//.btn-default.active, .btn-default:active, .open >.btn-default.dropdown-toggle
+%extend_35 {
+  background-image: none;
+}
+
+//original selectors
+//.btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled].active, .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover
+%extend_36 {
+  background-color: $alabaster;
+  border-color: $color_gallery_approx;
+}
+
+//original selectors
+//.btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open >.btn-primary.dropdown-toggle
+%extend_37 {
+  background-color: $color_blumine_approx;
+  border-color: $color_chathams_blue_approx;
+  color: $white;
+}
+
+//original selectors
+//.btn-primary.active, .btn-primary:active, .open >.btn-primary.dropdown-toggle
+%extend_38 {
+  background-image: none;
+}
+
+//original selectors
+//.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover
+%extend_39 {
+  background-color: $color_eastern_blue_approx;
+  border-color: $color_jelly_bean_approx;
+}
+
+//original selectors
+//.btn-success.active, .btn-success:active, .btn-success:focus, .btn-success:hover, .open >.btn-success.dropdown-toggle
+%extend_40 {
+  background-color: $color_lochinvar_approx;
+  border-color: $color_eucalyptus_approx;
+  color: $white;
+}
+
+//original selectors
+//.btn-success.active, .btn-success:active, .open >.btn-success.dropdown-toggle
+%extend_41 {
+  background-image: none;
+}
+
+//original selectors
+//.btn-success.disabled, .btn-success.disabled.active, .btn-success.disabled:active, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled], .btn-success[disabled].active, .btn-success[disabled]:active, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success.active, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover
+%extend_42 {
+  background-color: $color_keppel_approx;
+  border-color: $color_ocean_green_approx;
+}
+
+//original selectors
+//.btn-info.active, .btn-info:active, .btn-info:focus, .btn-info:hover, .open >.btn-info.dropdown-toggle
+%extend_43 {
+  background-color: $color_eastern_blue_approx;
+  border-color: $color_elm_approx;
+  color: $white;
+}
+
+//original selectors
+//.btn-info.active, .btn-info:active, .open >.btn-info.dropdown-toggle
+%extend_44 {
+  background-image: none;
+}
+
+//original selectors
+//.btn-info.disabled, .btn-info.disabled.active, .btn-info.disabled:active, .btn-info.disabled:focus, .btn-info.disabled:hover, .btn-info[disabled], .btn-info[disabled].active, .btn-info[disabled]:active, .btn-info[disabled]:focus, .btn-info[disabled]:hover, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info.active, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:hover
+%extend_45 {
+  background-color: $color_scooter_approx;
+  border-color: $color_eastern_blue_approx;
+}
+
+//original selectors
+//.btn-warning.active, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open >.btn-warning.dropdown-toggle
+%extend_46 {
+  background-color: $color_my_sin_approx;
+  border-color: $color_gamboge_approx;
+  color: $white;
+}
+
+//original selectors
+//.btn-warning.active, .btn-warning:active, .open >.btn-warning.dropdown-toggle
+%extend_47 {
+  background-image: none;
+}
+
+//original selectors
+//.btn-warning.disabled, .btn-warning.disabled.active, .btn-warning.disabled:active, .btn-warning.disabled:focus, .btn-warning.disabled:hover, .btn-warning[disabled], .btn-warning[disabled].active, .btn-warning[disabled]:active, .btn-warning[disabled]:focus, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning.active, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:hover
+%extend_48 {
+  background-color: $color_saffron_mango_approx;
+  border-color: $color_saffron_approx;
+}
+
+//original selectors
+//.btn-danger.active, .btn-danger:active, .btn-danger:focus, .btn-danger:hover, .open >.btn-danger.dropdown-toggle
+%extend_49 {
+  background-color: $color_thunderbird_approx;
+  border-color: $color_tabasco_approx;
+  color: $white;
+}
+
+//original selectors
+//.btn-danger.active, .btn-danger:active, .open >.btn-danger.dropdown-toggle
+%extend_50 {
+  background-image: none;
+}
+
+//original selectors
+//.btn-danger.disabled, .btn-danger.disabled.active, .btn-danger.disabled:active, .btn-danger.disabled:focus, .btn-danger.disabled:hover, .btn-danger[disabled], .btn-danger[disabled].active, .btn-danger[disabled]:active, .btn-danger[disabled]:focus, .btn-danger[disabled]:hover, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger.active, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:hover
+%extend_51 {
+  background-color: $color_cinnabar_approx;
+  border-color: $color_pomegranate_approx;
+}
+
+//original selectors
+//.btn-link, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link
+%extend_52 {
+  background-color: transparent;
+  box-shadow: none;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-box-shadow: none;
+}
+
+//original selectors
+//.btn-link, .btn-link:active, .btn-link:focus, .btn-link:hover
+%extend_53 {
+  border-color: transparent;
+}
+
+//original selectors
+//.btn-link:focus, .btn-link:hover
+%extend_54 {
+  background-color: transparent;
+  color: $color_woodsmoke_approx;
+  text-decoration: underline;
+}
+
+//original selectors
+//.btn-link[disabled]:focus, .btn-link[disabled]:hover, fieldset[disabled] .btn-link:focus, fieldset[disabled] .btn-link:hover
+%extend_55 {
+  color: $color_mountain_mist_approx;
+  text-decoration: none;
+}
+
+//original selectors
+//.btn-group-lg >.btn, .btn-lg
+%extend_56 {
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 1.33;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  padding: 10px 16px;
+}
+
+//original selectors
+//.btn-group-sm >.btn, .btn-sm
+%extend_57 {
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 1.5;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  padding: 5px 10px;
+}
+
+//original selectors
+//.btn-group-xs >.btn, .btn-xs
+%extend_58 {
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 1.5;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  padding: 1px 5px;
+}
+
+//original selectors
+//input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block
+%extend_59 {
+  width: 100%;
+}
+
+//original selectors
+//.modal-backdrop, .modal-backdrop.fade.in
+%extend_60 {
+  background: $white;
+  opacity: .9;
+}
+
+//original selectors
+//.progress .bar-success, .progress-success .bar
+%extend_61 {
+  border-color: $color_hippie_green_approx;
+}
+
+//original selectors
+//.progress .bar-warning, .progress-warning .bar
+%extend_62 {
+  border-color: $color_indochine_approx;
+}
+
+//original selectors
+//.progress .bar-danger, .progress-danger .bar
+%extend_63 {
+  border-color: $color_mexican_red_approx;
+}
+
+//original selectors
+//.table th, .table td
+%extend_64 {
+  border-color: $color_quill_gray_approx !important;
+}
+
+//original selectors
+//.table.valign-middle td, .table.valign-middle th
+%extend_65 {
+  vertical-align: middle;
+}
+
+//original selectors
+//.table-bordered thead:first-child tr:first-child >th:first-child, .table-bordered tbody:first-child tr:first-child >td:first-child
+%extend_66 {
+  -moz-border-radius-topleft: 2px;
+  border-top-left-radius: 2px;
+  //Instead of the line below you could use @include border-top-left-radius($radius)
+  -webkit-border-top-left-radius: 2px;
+}
+
+//original selectors
+//.table-bordered thead:first-child tr:first-child >th:last-child, .table-bordered tbody:first-child tr:first-child >td:last-child
+%extend_67 {
+  -moz-border-radius-topright: 2px;
+  border-top-right-radius: 2px;
+  //Instead of the line below you could use @include border-top-right-radius($radius)
+  -webkit-border-top-right-radius: 2px;
+}
+
+//original selectors
+//.table-bordered thead:last-child tr:last-child >th:first-child, .table-bordered tbody:last-child tr:last-child >td:first-child, .table-bordered tfoot:last-child tr:last-child >td:first-child
+%extend_68 {
+  border-bottom-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  //Instead of the line below you could use @include border-bottom-left-radius($radius)
+  -moz-border-radius-bottomleft: 2px;
+}
+
+//original selectors
+//.table-bordered thead:last-child tr:last-child >th:last-child, .table-bordered tbody:last-child tr:last-child >td:last-child, .table-bordered tfoot:last-child tr:last-child >td:last-child
+%extend_69 {
+  border-bottom-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  //Instead of the line below you could use @include border-bottom-right-radius($radius)
+  -moz-border-radius-bottomright: 2px;
+}
+
+//original selectors
+//.module-body.table .table th, .module-body.table .table td
+%extend_70 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+//original selectors
+//.stream.new-update, .stream.load-more
+%extend_71 {
+  padding: 0;
+}
+
+//original selectors
+//.stream.new-update a, .stream.load-more a
+%extend_72 {
+  background-color: $color_black_haze_approx;
+  color: $color_fuscous_gray_approx;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+//original selectors
+//.stream.new-update a i, .stream.load-more a i
+%extend_73 {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+//original selectors
+//.stream-options a [class^="icon-"], .stream-options a [class*=" icon-"]
+%extend_74 {
+  font-size: 11px !important;
+}
+
+//original selectors
+//.responsive-video object, .responsive-video embed, .responsive-video iframe
+%extend_75 {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+//original selectors
+//.message .table-message thead tr.heading td, .message .table-message tbody tr.heading td
+%extend_76 {
+  background: $color_scooter_approx !important;
+  border: 0;
+  font-weight: bold;
+}
+
+//original selectors
+//.message .table-message tbody [class^="icon-"], .message .table-message tbody [class*=" icon-"]
+%extend_77 {
+  color: $color_mountain_mist_approx;
+  font-size: 13px;
+}
+
+//original selectors
+//.dataTables_wrapper select, .dataTables_wrapper input, .dataTables_wrapper label
+%extend_78 {
+  margin: 0;
+}
+
+//original selectors
+//.dataTables_wrapper select, .dataTables_wrapper input
+%extend_79 {
+  margin: 0 0 0 5px;
+}
+
+//original selectors
+//.dataTables_wrapper table +div, .dataTables_wrapper table +div +div
+%extend_80 {
+  margin-bottom: 0;
+  margin-top: 15px;
+}
+
+//original selectors
+//.dataTables_wrapper table th.sorting_asc, .dataTables_wrapper table th.sorting_desc
+%extend_81 {
+  background: $color_gallery_approx;
+  box-shadow: 0 0 5px $black_10 inset;
+  -moz-box-shadow: 0 0 5px $black_10 inset;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-box-shadow: 0 0 5px $black_10 inset;
+}
+
+//original selectors
+//.dataTables_wrapper table tr:hover th.sorting_asc, .dataTables_wrapper table tr:hover th.sorting_desc
+%extend_82 {
+  background: $color_gallery_approx;
+}
+
+//original selectors
+//.dataTables_wrapper .table-bordered thead tr >th:first-child, .dataTables_wrapper .table-bordered tbody tr >td:first-child, .dataTables_wrapper .table-bordered tfoot tr >td:first-child, .dataTables_wrapper .table-bordered tfoot tr >th:first-child
+%extend_83 {
+  border-left: 0;
+}
+
+//original selectors
+//.dataTables_wrapper .table-bordered thead:first-child tr:first-child >th:first-child, .dataTables_wrapper .table-bordered tbody:first-child tr:first-child >td:first-child
+%extend_84 {
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  //Instead of the line below you could use @include border-top-left-radius($radius)
+  -webkit-border-top-left-radius: 0;
+}
+
+//original selectors
+//.dataTables_wrapper .table-bordered thead:first-child tr:first-child >th:last-child, .dataTables_wrapper .table-bordered tbody:first-child tr:first-child >td:last-child
+%extend_85 {
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  //Instead of the line below you could use @include border-top-right-radius($radius)
+  -webkit-border-top-right-radius: 0;
+}
+
+//original selectors
+//.dataTables_wrapper .table-bordered thead:last-child tr:last-child >th:first-child, .dataTables_wrapper .table-bordered tbody:last-child tr:last-child >td:first-child, .dataTables_wrapper .table-bordered tfoot:last-child tr:last-child >td:first-child
+%extend_86 {
+  border-bottom-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  //Instead of the line below you could use @include border-bottom-left-radius($radius)
+  -moz-border-radius-bottomleft: 0;
+}
+
+//original selectors
+//.dataTables_wrapper .table-bordered thead:last-child tr:last-child >th:last-child, .dataTables_wrapper .table-bordered tbody:last-child tr:last-child >td:last-child, .dataTables_wrapper .table-bordered tfoot:last-child tr:last-child >td:last-child
+%extend_87 {
+  border-bottom-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  //Instead of the line below you could use @include border-bottom-right-radius($radius)
+  -moz-border-radius-bottomright: 0;
+}
+
+//original selectors
+//.datatable-pagination >a.paginate_disabled_previous, .datatable-pagination >a.paginate_disabled_next
+%extend_88 {
+  cursor: default;
+}
+
+//original selectors
+//.datatable-pagination >a.paginate_disabled_previous i, .datatable-pagination >a.paginate_disabled_next i
+%extend_89 {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+//original selectors
+//.ui-slider.ui-state-disabled .ui-slider-handle, .ui-slider.ui-state-disabled .ui-slider-range
+%extend_90 {
+  filter: inherit;
+}
+
+//original selectors
+//.docs-example .pre .tag, .docs-example .pre .atn, .docs-example .pre .pun, .docs-example .pre .atv
+%extend_91 {
+  color: $color_kashmir_blue_approx;
+  font-weight: bold;
+}
+
+body {
+  background: $white;
+  color: $color_tapa_approx;
+  font-family: $font_0, $font_1, $font_2;
+  font-size: 13px;
+  [class^="icon-"] {
+    @extend %extend_13;
+  }
+  [class*=" icon-"] {
+    @extend %extend_13;
+  }
+}
+
+h1 {
+  @extend %extend_1;
+  font-size: 28px;
+  small {
+    @extend %extend_2;
+  }
+}
+
+h2 {
+  @extend %extend_1;
+  font-size: 24px;
+  small {
+    @extend %extend_2;
+  }
+}
+
+h3 {
+  @extend %extend_1;
+  font-size: 20px;
+  small {
+    @extend %extend_2;
+  }
+}
+
+h4 {
+  @extend %extend_1;
+  font-size: 16px;
+  small {
+    @extend %extend_2;
+  }
+}
+
+h5 {
+  @extend %extend_1;
+  font-size: 13px;
+  small {
+    @extend %extend_2;
+  }
+}
+
+h6 {
+  @extend %extend_1;
+  font-size: 11px;
+  small {
+    @extend %extend_2;
+  }
+}
+
+strong {
+  @extend %extend_3;
+}
+
+b {
+  @extend %extend_3;
+}
+
+a {
+  &:hover {
+    @extend %extend_4;
+  }
+  &:focus {
+    @extend %extend_4;
+  }
+}
+
+small {
+  @extend %extend_5;
+}
+
+.small {
+  @extend %extend_5;
+}
+
+pre {
+  @extend %extend_6;
+}
+
+code {
+  @extend %extend_6;
+}
+
+blockquote {
+  border-left: 3px solid $color_alto_approx;
+  p {
+    font-size: 14px;
+  }
+  small::before {
+    content: "# ";
+  }
+}
+
+.lead {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.text-muted {
+  color: $color_mountain_mist_approx;
+}
+
+.wrapper {
+  background: $url_0 $color_gallery_approx;
+  border-bottom: 1px solid $color_pink_swan_approx;
+  box-shadow: 0 1px 2px $black_10;
+  -moz-box-shadow: 0 1px 2px $black_10;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-box-shadow: 0 1px 2px $black_10;
+  padding: 30px 0;
+}
+
+.footer {
+  color: $color_mountain_mist_approx;
+  padding: 30px 0 60px;
+  .nav li {
+    float: left;
+    + li {
+      margin-left: 30px;
+    }
+    a {
+      color: inherit;
+      &:hover {
+        color: $color_fuscous_gray_approx;
+      }
+    }
+  }
+}
+
+form {
+  margin: 0;
+}
+
+select {
+  @extend %extend_7;
+  @extend %extend_7;
+}
+
+textarea {
+  @extend %extend_7;
+  @extend %extend_7;
+}
+
+input[type="text"] {
+  @extend %extend_7;
+}
+
+input[type="password"] {
+  @extend %extend_7;
+}
+
+input[type="datetime"] {
+  @extend %extend_7;
+}
+
+input[type="datetime-local"] {
+  @extend %extend_7;
+}
+
+input[type="date"] {
+  @extend %extend_7;
+}
+
+input[type="month"] {
+  @extend %extend_7;
+}
+
+input[type="time"] {
+  @extend %extend_7;
+}
+
+input[type="week"] {
+  @extend %extend_7;
+}
+
+input[type="number"] {
+  @extend %extend_7;
+}
+
+input[type="email"] {
+  @extend %extend_7;
+}
+
+input[type="url"] {
+  @extend %extend_7;
+}
+
+input[type="search"] {
+  @extend %extend_7;
+}
+
+input[type="tel"] {
+  @extend %extend_7;
+}
+
+input[type="color"] {
+  @extend %extend_7;
+}
+
+.uneditable-input {
+  @extend %extend_7;
+}
+
+label {
+  @extend %extend_7;
+}
+
+input {
+  @extend %extend_7;
+}
+
+button {
+  @extend %extend_7;
+}
+
+.input-append {
+  input {
+    @extend %extend_8;
+    @extend %extend_9;
+  }
+  select {
+    @extend %extend_8;
+    @extend %extend_9;
+  }
+  .uneditable-input {
+    @extend %extend_8;
+    @extend %extend_9;
+  }
+  .add-on {
+    @extend %extend_10;
+    &:last-child {
+      @extend %extend_11;
+    }
+  }
+  .btn {
+    @extend %extend_10;
+    &:last-child {
+      @extend %extend_11;
+    }
+  }
+  .btn-group {
+    > .dropdown-toggle {
+      @extend %extend_10;
+    }
+    &:last-child > .dropdown-toggle {
+      @extend %extend_11;
+    }
+  }
+}
+
+.input-prepend {
+  input {
+    @extend %extend_8;
+  }
+  select {
+    @extend %extend_8;
+  }
+  .uneditable-input {
+    @extend %extend_8;
+  }
+  .add-on {
+    @extend %extend_10;
+    &:first-child {
+      @extend %extend_9;
+    }
+  }
+  .btn {
+    @extend %extend_10;
+    &:first-child {
+      @extend %extend_9;
+    }
+  }
+  .btn-group > .dropdown-toggle {
+    @extend %extend_10;
+  }
+}
+
+.input-transparent {
+  background: none !important;
+  border: 0 !important;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.shaded {
+  color: $black_30;
+  //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  text-shadow: 0 0 1px $color_gallery_approx, 0 0 0 $black, 0 0 1px $white;
+}
+
+.module {
+  background: $white;
+  background-color: $white;
+  border: 1px solid $color_celeste_approx;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-bottom-color: $color_pink_swan_approx;
+  border-color: $color_gray_nurse_approx;
+  border-radius: 3px;
+  border-radius: 4px;
+  -moz-border-radius: 3px;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-border-radius: 3px;
+  box-shadow: 0 0 1px $black_20;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  box-shadow: 0 0 3px $black_10;
+  box-shadow: 0 1px 1px $black_5;
+  -moz-box-shadow: 0 0 1px $black_20;
+  -webkit-box-shadow: 0 0 1px $black_20;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-box-shadow: 0 1px 1px $black_5;
+  margin-bottom: 30px;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  margin-bottom: 20px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right !important;
+}
+
+.clear {
+  clear: both;
+}
+
+.none {
+  display: none;
+}
+
+.module-login {
+  margin-bottom: 80px;
+  margin-top: 80px;
+  .form-vertical input {
+    margin-bottom: 0 !important;
+  }
+}
+
+.navbar {
+  margin: 0 !important;
+  position: static !important;
+  .navbar-inner {
+    background: $white;
+    border-bottom: 1px solid $color_pink_swan_approx;
+    box-shadow: 0 1px 2px $black_15;
+    -moz-box-shadow: 0 1px 2px $black_15;
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    -webkit-box-shadow: 0 1px 2px $black_15;
+  }
+  .brand {
+    color: $color_mine_shaft_approx;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 20px;
+  }
+  .nav {
+    > li {
+      > a {
+        color: $color_tapa_approx;
+        font-weight: bold;
+        padding: 20px 15px;
+      }
+      &.active {
+        @extend %extend_16;
+        @extend %extend_16;
+        @extend %extend_16;
+      }
+      &:hover {
+        @extend %extend_16;
+      }
+      &.dropdown {
+        &.open {
+          > .dropdown-toggle {
+            @extend %extend_17;
+          }
+          &.active > .dropdown-toggle {
+            @extend %extend_17;
+          }
+        }
+        &.active > .dropdown-toggle {
+          @extend %extend_17;
+        }
+      }
+      > {
+        .dropdown-menu {
+          border: 1px solid $color_celeste_approx;
+          border-radius: 0 0 3px 3px;
+          -moz-border-radius: 0 0 3px 3px;
+          //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+          -webkit-border-radius: 0 0 3px 3px;
+          box-shadow: 0 1px 1px $black_10;
+          -moz-box-shadow: 0 1px 1px $black_10;
+          //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+          -webkit-box-shadow: 0 1px 1px $black_10;
+          left: -1px;
+          margin: -1px 0 0;
+          min-width: 200px;
+          z-index: 9991;
+          &.pull-right {
+            @extend %extend_20;
+          }
+          li > a {
+            padding: 10px 20px;
+            &:hover {
+              background: $color_alabaster_approx;
+              color: $color_fuscous_gray_approx;
+            }
+          }
+        }
+        .dropdown-menu::before {
+          @extend %extend_18;
+        }
+        .dropdown-menu::after {
+          @extend %extend_18;
+        }
+      }
+    }
+    > .active > a {
+      @extend %extend_19;
+      &:hover {
+        @extend %extend_19;
+      }
+      &:focus {
+        @extend %extend_19;
+      }
+    }
+    &.nav-icons > li > a {
+      background: none;
+      box-shadow: none;
+      -moz-box-shadow: none;
+      //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+      -webkit-box-shadow: none;
+      color: $color_tapa_approx;
+      font-weight: bold;
+      margin: 15px 5px;
+      padding: 5px;
+    }
+  }
+  .divider-vertical {
+    background: $color_gallery_approx;
+    border-left: 0;
+    border-right: 0;
+    height: 30px;
+    margin: 25px 15px;
+    width: 1px;
+  }
+  .pull-right > li > .dropdown-menu {
+    @extend %extend_20;
+  }
+}
+
+.navbar-search {
+  margin: 15px 0 0;
+}
+
+.nav-avatar {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  height: 34px;
+  margin: -7px 5px 0 0;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  width: 34px;
+}
+
+.dropdown-menu {
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 3px;
+}
+
+.alert {
+  background: $color_island_spice_approx;
+  border-color: $color_raffia_approx;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 3px;
+  box-shadow: 0 1px 0 $white_50 inset;
+  -moz-box-shadow: 0 1px 0 $white_50 inset;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-box-shadow: 0 1px 0 $white_50 inset;
+  color: $color_driftwood_approx;
+  strong {
+    @extend %extend_21;
+  }
+  b {
+    @extend %extend_21;
+  }
+}
+
+.alert-danger {
+  @extend %extend_22;
+}
+
+.alert-error {
+  @extend %extend_22;
+}
+
+.alert-success {
+  background: $color_loafer_approx;
+  border-color: $color_sprout_approx;
+  color: $color_aqua_forest_approx;
+}
+
+.btn {
+  @extend %extend_23;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  font-weight: 400;
+  line-height: 1.42857;
+  margin-bottom: 0;
+  padding: 4px 10px;
+  text-align: center;
+  vertical-align: middle;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  //Instead of the line below you could use @include user-select($select)
+  user-select: none;
+  &:hover {
+    @extend %extend_24;
+    @extend %extend_31;
+  }
+  &:focus {
+    @extend %extend_25;
+    @extend %extend_30;
+    @extend %extend_31;
+  }
+  [class^="icon-"] {
+    @extend %extend_26;
+  }
+  [class*=" icon-"] {
+    @extend %extend_26;
+  }
+  &.btn-mini {
+    @extend %extend_27;
+  }
+  &.btn-small {
+    @extend %extend_27;
+  }
+  &.btn-large {
+    font-size: 16px;
+  }
+  &.active {
+    @extend %extend_32;
+    &:focus {
+      @extend %extend_30;
+    }
+  }
+  &:active {
+    @extend %extend_32;
+    &:focus {
+      @extend %extend_30;
+    }
+  }
+  &.disabled {
+    @extend %extend_33;
+  }
+}
+
+.btn-box {
+  @extend %extend_23;
+  background-color: $white;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  box-shadow: 0 1px 1px $black_5;
+  -webkit-box-shadow: 0 1px 1px $black_5;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  margin: 0 0 30px;
+  margin-bottom: 20px;
+  padding: 25px 0;
+  text-align: center;
+  text-decoration: none !important;
+  &:hover {
+    @extend %extend_24;
+    i {
+      color: $black_40;
+    }
+  }
+  &:focus {
+    @extend %extend_25;
+  }
+  [class^="icon-"] {
+    @extend %extend_26;
+  }
+  [class*=" icon-"] {
+    @extend %extend_26;
+  }
+  i {
+    @extend %extend_28;
+    color: $color_scooter_approx;
+    font-size: 36px;
+    height: 36px;
+    line-height: 36px;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+    -webkit-transition: all .2s ease-in-out;
+  }
+  b {
+    @extend %extend_28;
+    color: $color_tundora_approx;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+    //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    text-shadow: 0 1px 0 $white;
+  }
+  &.big {
+    b {
+      margin-top: 10px;
+    }
+    i {
+      font-size: 48px;
+      height: 48px;
+      line-height: 48px;
+    }
+  }
+  &.small {
+    b {
+      font-size: 11px;
+    }
+    i {
+      font-size: 24px;
+      height: 24px;
+      line-height: 24px;
+    }
+  }
+}
+
+.btn-group {
+  > {
+    .btn {
+      @extend %extend_29;
+      &:first-child {
+        border-bottom-left-radius: 3px;
+        -webkit-border-bottom-left-radius: 3px;
+        //Instead of the line below you could use @include border-top-left-radius($radius)
+        -moz-border-radius-bottomleft: 3px;
+        -moz-border-radius-topleft: 3px;
+        border-top-left-radius: 3px;
+        //Instead of the line below you could use @include border-bottom-left-radius($radius)
+        -webkit-border-top-left-radius: 3px;
+      }
+      &:last-child {
+        border-bottom-right-radius: 3px;
+        -webkit-border-bottom-right-radius: 3px;
+        //Instead of the line below you could use @include border-top-right-radius($radius)
+        -moz-border-radius-bottomright: 3px;
+        -moz-border-radius-topright: 3px;
+        border-top-right-radius: 3px;
+        //Instead of the line below you could use @include border-bottom-right-radius($radius)
+        -webkit-border-top-right-radius: 3px;
+      }
+    }
+    .dropdown-menu {
+      @extend %extend_29;
+    }
+    .popover {
+      @extend %extend_29;
+    }
+  }
+  &.shaded-icon > .btn {
+    > i {
+      color: $black_30;
+      //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+      text-shadow: 0 0 1px $color_gallery_approx, 0 0 0 $black, 0 0 1px $white;
+    }
+    &:hover > i {
+      color: $black_40;
+      //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+      text-shadow: 0 0 1px $color_celeste_approx, 0 0 0 $black, 0 0 1px $white;
+    }
+  }
+}
+
+.btn[disabled] {
+  @extend %extend_33;
+}
+
+fieldset[disabled] {
+  .btn {
+    @extend %extend_33;
+  }
+  .btn-default {
+    @extend %extend_36;
+    &.active {
+      @extend %extend_36;
+    }
+    &:active {
+      @extend %extend_36;
+    }
+    &:focus {
+      @extend %extend_36;
+    }
+    &:hover {
+      @extend %extend_36;
+    }
+  }
+  .btn-primary {
+    @extend %extend_39;
+    &.active {
+      @extend %extend_39;
+    }
+    &:active {
+      @extend %extend_39;
+    }
+    &:focus {
+      @extend %extend_39;
+    }
+    &:hover {
+      @extend %extend_39;
+    }
+  }
+  .btn-success {
+    @extend %extend_42;
+    &.active {
+      @extend %extend_42;
+    }
+    &:active {
+      @extend %extend_42;
+    }
+    &:focus {
+      @extend %extend_42;
+    }
+    &:hover {
+      @extend %extend_42;
+    }
+  }
+  .btn-info {
+    @extend %extend_45;
+    &.active {
+      @extend %extend_45;
+    }
+    &:active {
+      @extend %extend_45;
+    }
+    &:focus {
+      @extend %extend_45;
+    }
+    &:hover {
+      @extend %extend_45;
+    }
+  }
+  .btn-warning {
+    @extend %extend_48;
+    &.active {
+      @extend %extend_48;
+    }
+    &:active {
+      @extend %extend_48;
+    }
+    &:focus {
+      @extend %extend_48;
+    }
+    &:hover {
+      @extend %extend_48;
+    }
+  }
+  .btn-danger {
+    @extend %extend_51;
+    &.active {
+      @extend %extend_51;
+    }
+    &:active {
+      @extend %extend_51;
+    }
+    &:focus {
+      @extend %extend_51;
+    }
+    &:hover {
+      @extend %extend_51;
+    }
+  }
+  .btn-link {
+    @extend %extend_52;
+    &:focus {
+      @extend %extend_55;
+    }
+    &:hover {
+      @extend %extend_55;
+    }
+  }
+}
+
+.btn-default {
+  background-color: $alabaster;
+  border-color: $color_gallery_approx;
+  color: $color_tapa_approx;
+  &.active {
+    @extend %extend_34;
+    @extend %extend_35;
+  }
+  &:active {
+    @extend %extend_34;
+    @extend %extend_35;
+  }
+  &:focus {
+    @extend %extend_34;
+  }
+  &:hover {
+    @extend %extend_34;
+  }
+  &.disabled {
+    @extend %extend_36;
+    &.active {
+      @extend %extend_36;
+    }
+    &:active {
+      @extend %extend_36;
+    }
+    &:focus {
+      @extend %extend_36;
+    }
+    &:hover {
+      @extend %extend_36;
+    }
+  }
+  .badge {
+    background-color: $color_tapa_approx;
+    color: $alabaster;
+  }
+}
+
+.btn-default[disabled] {
+  @extend %extend_36;
+  &.active {
+    @extend %extend_36;
+  }
+  &:active {
+    @extend %extend_36;
+  }
+  &:focus {
+    @extend %extend_36;
+  }
+  &:hover {
+    @extend %extend_36;
+  }
+}
+
+.btn-primary {
+  background-color: $color_eastern_blue_approx;
+  border-color: $color_jelly_bean_approx;
+  color: $white;
+  &.active {
+    @extend %extend_37;
+    @extend %extend_38;
+  }
+  &:active {
+    @extend %extend_37;
+    @extend %extend_38;
+  }
+  &:focus {
+    @extend %extend_37;
+  }
+  &:hover {
+    @extend %extend_37;
+  }
+  &.disabled {
+    @extend %extend_39;
+    &.active {
+      @extend %extend_39;
+    }
+    &:active {
+      @extend %extend_39;
+    }
+    &:focus {
+      @extend %extend_39;
+    }
+    &:hover {
+      @extend %extend_39;
+    }
+  }
+  .badge {
+    background-color: $white;
+    color: $color_eastern_blue_approx;
+  }
+}
+
+.btn-primary[disabled] {
+  @extend %extend_39;
+  &.active {
+    @extend %extend_39;
+  }
+  &:active {
+    @extend %extend_39;
+  }
+  &:focus {
+    @extend %extend_39;
+  }
+  &:hover {
+    @extend %extend_39;
+  }
+}
+
+.btn-success {
+  background-color: $color_keppel_approx;
+  border-color: $color_ocean_green_approx;
+  color: $white;
+  &.active {
+    @extend %extend_40;
+    @extend %extend_41;
+  }
+  &:active {
+    @extend %extend_40;
+    @extend %extend_41;
+  }
+  &:focus {
+    @extend %extend_40;
+  }
+  &:hover {
+    @extend %extend_40;
+  }
+  &.disabled {
+    @extend %extend_42;
+    &.active {
+      @extend %extend_42;
+    }
+    &:active {
+      @extend %extend_42;
+    }
+    &:focus {
+      @extend %extend_42;
+    }
+    &:hover {
+      @extend %extend_42;
+    }
+  }
+  .badge {
+    background-color: $white;
+    color: $color_keppel_approx;
+  }
+}
+
+.btn-success[disabled] {
+  @extend %extend_42;
+  &.active {
+    @extend %extend_42;
+  }
+  &:active {
+    @extend %extend_42;
+  }
+  &:focus {
+    @extend %extend_42;
+  }
+  &:hover {
+    @extend %extend_42;
+  }
+}
+
+.btn-info {
+  background-color: $color_scooter_approx;
+  border-color: $color_eastern_blue_approx;
+  color: $white;
+  &.active {
+    @extend %extend_43;
+    @extend %extend_44;
+  }
+  &:active {
+    @extend %extend_43;
+    @extend %extend_44;
+  }
+  &:focus {
+    @extend %extend_43;
+  }
+  &:hover {
+    @extend %extend_43;
+  }
+  &.disabled {
+    @extend %extend_45;
+    &.active {
+      @extend %extend_45;
+    }
+    &:active {
+      @extend %extend_45;
+    }
+    &:focus {
+      @extend %extend_45;
+    }
+    &:hover {
+      @extend %extend_45;
+    }
+  }
+  .badge {
+    background-color: $white;
+    color: $color_scooter_approx;
+  }
+}
+
+.btn-info[disabled] {
+  @extend %extend_45;
+  &.active {
+    @extend %extend_45;
+  }
+  &:active {
+    @extend %extend_45;
+  }
+  &:focus {
+    @extend %extend_45;
+  }
+  &:hover {
+    @extend %extend_45;
+  }
+}
+
+.btn-warning {
+  background-color: $color_saffron_mango_approx;
+  border-color: $color_saffron_approx;
+  color: $white;
+  &.active {
+    @extend %extend_46;
+    @extend %extend_47;
+  }
+  &:active {
+    @extend %extend_46;
+    @extend %extend_47;
+  }
+  &:focus {
+    @extend %extend_46;
+  }
+  &:hover {
+    @extend %extend_46;
+  }
+  &.disabled {
+    @extend %extend_48;
+    &.active {
+      @extend %extend_48;
+    }
+    &:active {
+      @extend %extend_48;
+    }
+    &:focus {
+      @extend %extend_48;
+    }
+    &:hover {
+      @extend %extend_48;
+    }
+  }
+  .badge {
+    background-color: $white;
+    color: $color_saffron_mango_approx;
+  }
+}
+
+.btn-warning[disabled] {
+  @extend %extend_48;
+  &.active {
+    @extend %extend_48;
+  }
+  &:active {
+    @extend %extend_48;
+  }
+  &:focus {
+    @extend %extend_48;
+  }
+  &:hover {
+    @extend %extend_48;
+  }
+}
+
+.btn-danger {
+  background-color: $color_cinnabar_approx;
+  border-color: $color_pomegranate_approx;
+  color: $white;
+  &.active {
+    @extend %extend_49;
+    @extend %extend_50;
+  }
+  &:active {
+    @extend %extend_49;
+    @extend %extend_50;
+  }
+  &:focus {
+    @extend %extend_49;
+  }
+  &:hover {
+    @extend %extend_49;
+  }
+  &.disabled {
+    @extend %extend_51;
+    &.active {
+      @extend %extend_51;
+    }
+    &:active {
+      @extend %extend_51;
+    }
+    &:focus {
+      @extend %extend_51;
+    }
+    &:hover {
+      @extend %extend_51;
+    }
+  }
+  .badge {
+    background-color: $white;
+    color: $color_cinnabar_approx;
+  }
+}
+
+.btn-danger[disabled] {
+  @extend %extend_51;
+  &.active {
+    @extend %extend_51;
+  }
+  &:active {
+    @extend %extend_51;
+  }
+  &:focus {
+    @extend %extend_51;
+  }
+  &:hover {
+    @extend %extend_51;
+  }
+}
+
+.btn-link {
+  border-radius: 0;
+  color: $color_mine_shaft_approx;
+  cursor: pointer;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  font-weight: 400;
+  @extend %extend_52;
+  @extend %extend_53;
+  &:active {
+    @extend %extend_52;
+    @extend %extend_53;
+  }
+  &:focus {
+    @extend %extend_53;
+    @extend %extend_54;
+  }
+  &:hover {
+    @extend %extend_53;
+    @extend %extend_54;
+  }
+}
+
+.btn-link[disabled] {
+  @extend %extend_52;
+  &:focus {
+    @extend %extend_55;
+  }
+  &:hover {
+    @extend %extend_55;
+  }
+}
+
+.btn-lg {
+  @extend %extend_56;
+}
+
+.btn-sm {
+  @extend %extend_57;
+}
+
+.btn-xs {
+  @extend %extend_58;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  + .btn-block {
+    margin-top: 5px;
+  }
+}
+
+.modal {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 4px;
+  box-shadow: 0 0 5px $black_20;
+  -moz-box-shadow: 0 0 5px $black_20;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-box-shadow: 0 0 5px $black_20;
+  .modal-header .close {
+    color: $black_50;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    text-shadow: 1px 1px 2px $color_alto_approx, 0 0 0 $black, 0 0 1px $white;
+  }
+}
+
+.modal-backdrop {
+  @extend %extend_60;
+  &.fade.in {
+    @extend %extend_60;
+  }
+}
+
+.accordion-group {
+  background: $white;
+  border: 1px solid $color_celeste_approx;
+  border-bottom-color: $color_pink_swan_approx;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: 0 0 1px $black_20;
+  -moz-box-shadow: 0 0 1px $black_20;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-box-shadow: 0 0 1px $black_20;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.accordion-heading {
+  background: $alabaster;
+  background: -moz-linear-gradient(top, $white 0, $white 50%, $alabaster 51%, $alabaster 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $white), color-stop(50%, $white), color-stop(51%, $alabaster), color-stop(100%, $alabaster));
+  background: -webkit-linear-gradient(top, $white 0, $white 50%, $alabaster 51%, $alabaster 100%);
+  background: -o-linear-gradient(top, $white 0, $white 50%, $alabaster 51%, $alabaster 100%);
+  background: -ms-linear-gradient(top, $white 0, $white 50%, $alabaster 51%, $alabaster 100%);
+  background: linear-gradient(to bottom, $white 0, $white 50%, $alabaster 51%, $alabaster 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@topColor', endColorstr='@bottomColor', GradientType=0);
+  .accordion-toggle {
+    color: $color_fuscous_gray_approx;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-decoration: none !important;
+  }
+}
+
+.media {
+  .media-avatar {
+    border: 1px solid $color_celeste_50_approx;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    -webkit-border-radius: 50px;
+    height: 100px;
+    margin-right: 20px;
+    width: 100px;
+    img {
+      border-radius: 45px;
+      -moz-border-radius: 45px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      -webkit-border-radius: 45px;
+      height: 90px;
+      margin: 5px;
+      width: 90px;
+    }
+    &.medium {
+      border-radius: 35px;
+      -moz-border-radius: 35px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      -webkit-border-radius: 35px;
+      height: 70px;
+      width: 70px;
+      img {
+        border-radius: 30px;
+        -moz-border-radius: 30px;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        -webkit-border-radius: 30px;
+        height: 60px;
+        margin: 5px;
+        width: 60px;
+      }
+    }
+    &.small {
+      border-radius: 30px;
+      -moz-border-radius: 30px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      -webkit-border-radius: 30px;
+      height: 60px;
+      width: 60px;
+      img {
+        border-radius: 25px;
+        -moz-border-radius: 25px;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        -webkit-border-radius: 25px;
+        height: 50px;
+        margin: 5px;
+        width: 50px;
+      }
+    }
+  }
+  .media-title {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 15px 0 0;
+  }
+  &.user {
+    border: 1px solid transparent;
+    padding: 15px;
+    transition: all .2s ease-in-out;
+    //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    &:hover {
+      background: $color_frostee_approx;
+      border: 1px solid $color_frostee_approx;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      -webkit-border-radius: 3px;
+      padding: 14px;
+      .media-avatar {
+        background: $white;
+        border-color: $color_pink_swan_approx;
+      }
+    }
+  }
+}
+
+.progress {
+  background: $color_black_haze_approx;
+  border-radius: 3px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  .bar {
+    background-color: $color_boston_blue_approx;
+    border-radius: 2px;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+  }
+  &.tight {
+    height: 10px;
+  }
+  .bar-success {
+    @extend %extend_61;
+  }
+  .bar-warning {
+    @extend %extend_62;
+  }
+  .bar-danger {
+    @extend %extend_63;
+  }
+  &.stacked .bar {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    -webkit-border-radius: 0;
+    &:first-child {
+      border-radius: 2px 0 0 2px;
+      -moz-border-radius: 2px 0 0 2px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      -webkit-border-radius: 2px 0 0 2px;
+    }
+    &:last-child {
+      border-radius: 0 2px 2px 0;
+      -moz-border-radius: 0 2px 2px 0;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      -webkit-border-radius: 0 2px 2px 0;
+    }
+    + .bar {
+      margin-left: -1px;
+    }
+  }
+}
+
+.table {
+  margin-bottom: 0;
+  th {
+    @extend %extend_64;
+  }
+  td {
+    @extend %extend_64;
+  }
+  &.valign-middle {
+    td {
+      @extend %extend_65;
+    }
+    th {
+      @extend %extend_65;
+    }
+  }
+}
+
+.table-bordered {
+  thead {
+    &:first-child tr:first-child > th {
+      &:first-child {
+        @extend %extend_66;
+      }
+      &:last-child {
+        @extend %extend_67;
+      }
+    }
+    &:last-child tr:last-child > th {
+      &:first-child {
+        @extend %extend_68;
+      }
+      &:last-child {
+        @extend %extend_69;
+      }
+    }
+  }
+  tbody {
+    &:first-child tr:first-child > td {
+      &:first-child {
+        @extend %extend_66;
+      }
+      &:last-child {
+        @extend %extend_67;
+      }
+    }
+    &:last-child tr:last-child > td {
+      &:first-child {
+        @extend %extend_68;
+      }
+      &:last-child {
+        @extend %extend_69;
+      }
+    }
+  }
+  tfoot:last-child tr:last-child > td {
+    &:first-child {
+      @extend %extend_68;
+    }
+    &:last-child {
+      @extend %extend_69;
+    }
+  }
+}
+
+.sidebar-user {
+  .user-avatar {
+    background: $white;
+    border: 1px solid $color_celeste_approx;
+    border-bottom-color: $color_celeste_approx;
+    border-radius: 35px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    height: 70px;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    margin-right: 15px;
+    width: 70px;
+    img {
+      border-radius: 30px;
+      -moz-border-radius: 30px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      -webkit-border-radius: 30px;
+      height: 60px;
+      margin: 5px;
+      width: 60px;
+    }
+  }
+  .user-content {
+    margin-top: 15px;
+    overflow: hidden;
+    h3 {
+      font-size: 14px;
+      height: 16px;
+      line-height: 16px;
+      margin: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}
+
+.widget-menu {
+  background: $white;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 3px;
+  overflow: hidden;
+  a {
+    color: $color_fuscous_gray_approx;
+    display: block;
+    line-height: 20px;
+    padding: 15px;
+    text-decoration: none !important;
+  }
+  .menu-icon {
+    color: $white;
+    margin-right: 10px;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+    -webkit-transition: all .2s ease-in-out;
+  }
+  .label {
+    background: $color_suva_gray_approx;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    -webkit-border-radius: 3px;
+    box-shadow: 0 0 2px $black_40 inset;
+    -moz-box-shadow: 0 0 2px $black_40 inset;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    -webkit-box-shadow: 0 0 2px $black_40 inset;
+    line-height: 20px;
+    padding: 0 5px;
+    &.green {
+      background: $color_lima_approx;
+    }
+    &.orange {
+      background: $color_punch_approx;
+    }
+  }
+  > li {
+    + li {
+      border-top: 1px solid $white;
+    }
+    > a {
+      background-color: $color_san_marino_approx;
+      color: $white;
+      font-size: 18px;
+      transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+      -webkit-transition: all .2s ease-in-out;
+      .icon-chevron-up {
+        display: block;
+      }
+      .icon-chevron-down {
+        display: none;
+      }
+      &.collapsed {
+        .icon-chevron-up {
+          display: none;
+        }
+        .icon-chevron-down {
+          display: block;
+        }
+      }
+      &:hover {
+        background-color: $color_pickled_bluewood_approx;
+        color: $alabaster;
+        .menu-icon {
+          color: $white;
+        }
+      }
+    }
+    ul li {
+      background: $color_gallery_approx;
+      border-top: 1px solid $color_celeste_approx;
+      + li {
+        border-top: 0;
+      }
+      a {
+        padding: 10px 15px 10px 30px;
+        &:hover {
+          background: $color_wild_sand_approx;
+          border-bottom: 1px solid $color_quill_gray_approx;
+          border-top: 1px solid $color_quill_gray_approx;
+          //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+          box-shadow: 0 1px 0 $alabaster inset;
+          -moz-box-shadow: 0 1px 0 $alabaster inset;
+          -webkit-box-shadow: 0 1px 0 $alabaster inset;
+          padding: 9px 15px 9px 30px;
+        }
+      }
+      &.active a {
+        background: $color_gallery_approx;
+      }
+    }
+  }
+}
+
+.widget-usage {
+  background-color: $white;
+  border: 1px solid transparent;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 4px;
+  box-shadow: 0 1px 1px $black_5;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-box-shadow: 0 1px 1px $black_5;
+  text-decoration: none !important;
+  p {
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  li {
+    padding: 15px;
+    + li {
+      border-top: 1px solid $color_alto_approx;
+    }
+  }
+}
+
+.module-head {
+  background-color: $color_black_haze_approx;
+  border-bottom: 1px solid transparent;
+  border-color: $color_gray_nurse_approx;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  //Instead of the line below you could use @include border-top-right-radius($radius)
+  color: $color_tapa_approx;
+  //Instead of the line below you could use @include border-top-left-radius($radius)
+  padding: 10px 15px;
+  h3 {
+    font-size: 14px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0;
+  }
+}
+
+.module-option {
+  border-bottom: 1px solid $mercury;
+  margin: 0 15px;
+  padding: 15px 0;
+}
+
+.module-body {
+  padding: 15px;
+  &.table {
+    padding: 15px 0;
+    .table {
+      th {
+        @extend %extend_70;
+      }
+      td {
+        @extend %extend_70;
+      }
+    }
+  }
+}
+
+.module-foot {
+  background: $color_alabaster_approx;
+  border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
+  -webkit-border-radius: 0 0 2px 2px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-top: 1px solid $color_alto_approx;
+  padding: 15px;
+}
+
+.login {
+  .user-avatar {
+    background: $white;
+    border: 1px solid $color_celeste_approx;
+    border-bottom-color: $color_celeste_approx;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    height: 100px;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    margin-right: 15px;
+    width: 100px;
+    img {
+      border-radius: 45px;
+      -moz-border-radius: 45px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      -webkit-border-radius: 45px;
+      height: 90px;
+      margin: 5px;
+      width: 90px;
+    }
+  }
+  .user-content {
+    margin: 5px 0 0 125px;
+    h3 {
+      font-size: 16px;
+      line-height: 20px;
+      margin: 0 0 15px;
+      small {
+        font-size: 11px;
+        margin-left: 10px;
+      }
+    }
+    p {
+      margin-bottom: 15px;
+    }
+  }
+  .user-accounts li {
+    overflow: hidden;
+    padding: 30px;
+    + li {
+      border-top: 1px solid $color_alto_approx;
+    }
+  }
+}
+
+.stream-list {
+  border-top: 1px solid $mercury;
+  margin: 20px -15px -15px;
+}
+
+.stream {
+  padding: 20px 15px;
+  &.new-update {
+    @extend %extend_71;
+    a {
+      @extend %extend_72;
+      i {
+        @extend %extend_73;
+      }
+    }
+  }
+  &.load-more {
+    @extend %extend_71;
+    margin-top: 10px;
+    a {
+      @extend %extend_72;
+      background: $color_wild_sand_approx;
+      border-radius: 0 0 2px 2px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      -moz-border-radius: 0 0 2px 2px;
+      -webkit-border-radius: 0 0 2px 2px;
+      i {
+        @extend %extend_73;
+      }
+    }
+  }
+  + .stream {
+    border-top: 1px solid $mercury;
+    margin-top: 0;
+  }
+}
+
+.stream-author {
+  font-size: 14px;
+  margin: 0 0 5px;
+}
+
+.stream-headline {
+  margin: 5px 0 10px;
+}
+
+.stream-attachment {
+  border: 1px solid $color_gallery_approx;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  clear: both;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  display: inline-block;
+  margin: 10px 0 0;
+  padding: 10px;
+  width: 80%;
+}
+
+.responsive-video {
+  height: 0;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  position: relative;
+  object {
+    @extend %extend_75;
+  }
+  embed {
+    @extend %extend_75;
+  }
+  iframe {
+    @extend %extend_75;
+  }
+}
+
+.stream-respond {
+  margin-top: 10px;
+  .stream {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    -webkit-border-radius: 3px;
+    padding: 15px 15px 15px 0;
+    width: 80%;
+    .stream-headline {
+      margin-bottom: 0;
+    }
+    + .stream {
+      border-top: 1px dotted $color_gallery_approx;
+    }
+  }
+}
+
+.profile-head {
+  background: $color_alabaster_approx;
+  border-radius: 2px 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 2px 2px 0 0;
+  margin: -15px -15px 0 !important;
+  padding: 15px 15px 0;
+  .media-avatar {
+    background: $white;
+  }
+}
+
+.profile-brief {
+  border-left: 3px solid $color_gallery_approx;
+  padding-left: 15px;
+}
+
+.profile-tab {
+  background: $color_alabaster_approx;
+  font-weight: 600;
+  margin: 0 -15px 25px;
+  padding: 30px 15px 0;
+  > li {
+    > a {
+      border-radius: 2px 2px 0 0;
+      -moz-border-radius: 2px 2px 0 0;
+      -webkit-border-radius: 2px 2px 0 0;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      color: $color_suva_gray_approx;
+      &:hover {
+        color: $color_storm_dust_approx;
+      }
+    }
+    + li {
+      margin-left: 5px;
+    }
+    &.active > a {
+      color: $color_tundora_approx;
+    }
+  }
+}
+
+.profile-tab-content {
+  overflow: visible;
+  .stream-list {
+    border-top: 0;
+    margin-top: 0;
+    .media:first-child {
+      margin-top: -20px;
+    }
+  }
+}
+
+.message {
+  .module-option {
+    border-bottom: 0;
+  }
+  .module-body {
+    padding: 0;
+  }
+  .table-message {
+    tbody {
+      tr {
+        &.unread {
+          color: $color_storm_dust_approx;
+          font-weight: bold;
+          td {
+            background: $white;
+          }
+        }
+        &:hover {
+          td {
+            background: $color_frostee_approx;
+            cursor: pointer;
+          }
+          .icon-star {
+            color: $color_sapling_approx;
+            &:hover {
+              color: $color_locust_approx;
+              cursor: pointer;
+            }
+          }
+        }
+        &.task {
+          td {
+            background: $white;
+            font-weight: bold;
+          }
+          &.resolved {
+            td {
+              background: $color_wild_sand_approx;
+              color: $color_mountain_mist_approx;
+              font-weight: normal;
+            }
+            .icon-checker {
+              border-color: $color_alto_approx;
+            }
+          }
+        }
+        &.heading td {
+          @extend %extend_76;
+        }
+        &.starred .icon-star {
+          color: $color_ecstasy_approx !important;
+          &:hover {
+            filter: alpha(opacity=60);
+            opacity: .6;
+          }
+        }
+      }
+      td {
+        &.cell-check {
+          text-align: center;
+          width: 20px;
+          input[type="checkbox"] {
+            margin: 0;
+          }
+        }
+        &.cell-icon {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          text-align: center;
+        }
+        &.cell-author {
+          width: 150px;
+        }
+        &.cell-time {
+          width: 70px;
+        }
+        &.cell-status {
+          text-align: center;
+          width: 100px;
+          b {
+            background: $color_punch_approx;
+            border-radius: 3px;
+            -moz-border-radius: 3px;
+            //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+            -webkit-border-radius: 3px;
+            color: $white;
+            color: $white_80;
+            display: inline-block;
+            font-size: 11px;
+            padding: 1px 5px;
+            text-transform: uppercase;
+          }
+        }
+      }
+      [class^="icon-"] {
+        @extend %extend_77;
+      }
+      [class*=" icon-"] {
+        @extend %extend_77;
+      }
+      .icon-star {
+        color: $color_alto_approx;
+      }
+      .icon-checker {
+        border: 3px solid $color_punch_approx;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        display: inline-block;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        height: 5px;
+        margin: 0 0 0 15px;
+        width: 5px;
+      }
+    }
+    thead tr.heading td {
+      @extend %extend_76;
+    }
+  }
+  tr.heading {
+    color: $white;
+  }
+}
+
+.dataTables_wrapper {
+  overflow: hidden;
+  select {
+    @extend %extend_78;
+    @extend %extend_79;
+  }
+  input {
+    @extend %extend_78;
+    @extend %extend_79;
+  }
+  label {
+    @extend %extend_78;
+  }
+  > div {
+    float: left;
+    margin: 0 0 15px 15px;
+    + div {
+      float: right;
+      margin: 0 15px 15px 0;
+    }
+  }
+  table {
+    + div {
+      @extend %extend_80;
+      + div {
+        @extend %extend_80;
+      }
+    }
+    th {
+      background: $color_wild_sand_approx;
+      cursor: pointer;
+      &:focus {
+        outline: 0;
+      }
+      &.sorting_asc {
+        @extend %extend_81;
+      }
+      &.sorting_desc {
+        @extend %extend_81;
+      }
+    }
+    tr:hover th {
+      background: $seashell;
+      background: -moz-linear-gradient(top, $alabaster 0, $alabaster 50%, $seashell 51%, $seashell 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $alabaster), color-stop(50%, $alabaster), color-stop(51%, $seashell), color-stop(100%, $seashell));
+      background: -webkit-linear-gradient(top, $alabaster 0, $alabaster 50%, $seashell 51%, $seashell 100%);
+      background: -o-linear-gradient(top, $alabaster 0, $alabaster 50%, $seashell 51%, $seashell 100%);
+      background: -ms-linear-gradient(top, $alabaster 0, $alabaster 50%, $seashell 51%, $seashell 100%);
+      background: linear-gradient(to bottom, $alabaster 0, $alabaster 50%, $seashell 51%, $seashell 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@topColor', endColorstr='@bottomColor', GradientType=0);
+      &.sorting_asc {
+        @extend %extend_82;
+      }
+      &.sorting_desc {
+        @extend %extend_82;
+      }
+    }
+  }
+  .table-bordered {
+    border-left: 0;
+    border-radius: 0;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-right: 0;
+    thead {
+      tr > th:first-child {
+        @extend %extend_83;
+      }
+      &:first-child tr:first-child > th {
+        &:first-child {
+          @extend %extend_84;
+        }
+        &:last-child {
+          @extend %extend_85;
+        }
+      }
+      &:last-child tr:last-child > th {
+        &:first-child {
+          @extend %extend_86;
+        }
+        &:last-child {
+          @extend %extend_87;
+        }
+      }
+    }
+    tbody {
+      tr > td:first-child {
+        @extend %extend_83;
+      }
+      &:first-child tr:first-child > td {
+        &:first-child {
+          @extend %extend_84;
+        }
+        &:last-child {
+          @extend %extend_85;
+        }
+      }
+      &:last-child tr:last-child > td {
+        &:first-child {
+          @extend %extend_86;
+        }
+        &:last-child {
+          @extend %extend_87;
+        }
+      }
+    }
+    tfoot {
+      tr {
+        > td:first-child {
+          @extend %extend_83;
+        }
+        > th:first-child {
+          @extend %extend_83;
+        }
+      }
+      &:last-child tr:last-child > td {
+        &:first-child {
+          @extend %extend_86;
+        }
+        &:last-child {
+          @extend %extend_87;
+        }
+      }
+    }
+  }
+}
+
+.dataTables_info {
+  float: left;
+  padding-top: 5px;
+}
+
+.datatable-pagination {
+  float: right;
+  > a {
+    background-color: $color_wild_sand_approx;
+    border-radius: 0;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 12px;
+    text-align: center;
+    text-decoration: none !important;
+    //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    text-shadow: 0 1px 1px $white_75;
+    vertical-align: middle;
+    + a {
+      margin-left: -1px;
+    }
+    &:first-child {
+      border-bottom-left-radius: 3px;
+      -webkit-border-bottom-left-radius: 3px;
+      //Instead of the line below you could use @include border-top-left-radius($radius)
+      -moz-border-radius-bottomleft: 3px;
+      -moz-border-radius-topleft: 3px;
+      border-top-left-radius: 3px;
+      //Instead of the line below you could use @include border-bottom-left-radius($radius)
+      -webkit-border-top-left-radius: 3px;
+    }
+    &:last-child {
+      border-bottom-right-radius: 3px;
+      -webkit-border-bottom-right-radius: 3px;
+      //Instead of the line below you could use @include border-top-right-radius($radius)
+      -moz-border-radius-bottomright: 3px;
+      -moz-border-radius-topright: 3px;
+      border-top-right-radius: 3px;
+      //Instead of the line below you could use @include border-bottom-right-radius($radius)
+      -webkit-border-top-right-radius: 3px;
+    }
+    &:hover {
+      background-color: $gallery;
+      background-image: -moz-linear-gradient(top, $color_wild_sand_approx, $color_mercury_approx);
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from($color_wild_sand_approx), to($color_mercury_approx));
+      background-image: -webkit-linear-gradient(top, $color_wild_sand_approx, $color_mercury_approx);
+      background-image: -o-linear-gradient(top, $color_wild_sand_approx, $color_mercury_approx);
+      background-image: linear-gradient(to bottom, $color_wild_sand_approx, $color_mercury_approx);
+      background-repeat: repeat-x;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe6e6e6', GradientType=0);
+    }
+    &.paginate_disabled_previous {
+      @extend %extend_88;
+      i {
+        @extend %extend_89;
+      }
+    }
+    &.paginate_disabled_next {
+      @extend %extend_88;
+      i {
+        @extend %extend_89;
+      }
+    }
+    span {
+      display: none;
+    }
+  }
+}
+
+.chart {
+  &.inline-legend {
+    .legend table tr {
+      display: inline-block;
+      + tr {
+        padding-left: 25px;
+      }
+    }
+    &.grid .legend {
+      > div {
+        display: none;
+      }
+      table {
+        margin-bottom: 15px;
+        top: 0 !important;
+        td {
+          padding: 0 0 15px;
+        }
+        .legendColorBox {
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+  .tickLabel {
+    color: $color_suva_gray_approx;
+  }
+  .legend table {
+    color: inherit !important;
+    font-size: 11px !important;
+    td {
+      padding: 3px 0;
+    }
+    .legendColorBox {
+      padding-right: 10px;
+      > div {
+        border: 0 !important;
+        padding: 0;
+        div {
+          border-radius: 50%;
+          -moz-border-radius: 50%;
+          //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+          -webkit-border-radius: 50%;
+          border-width: 2px !important;
+          height: 4px !important;
+          width: 4px !important;
+        }
+      }
+    }
+  }
+}
+
+.graph {
+  height: 300px;
+  width: 100%;
+}
+
+.pie {
+  position: relative;
+  #hover {
+    height: 34px;
+    left: 0;
+    margin-top: -17px;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    width: 100%;
+    span {
+      background: $color_tundora_approx;
+      background: $black_80;
+      border-radius: 4px;
+      -moz-border-radius: 4px;
+      //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+      -webkit-border-radius: 4px;
+      color: $white;
+      display: inline-block;
+      font: 11px/34px $font_4, $font_5, $font_6, $font_7;
+      height: 34px;
+      padding: 0 15px;
+    }
+  }
+}
+
+#gridtip {
+  background: $color_mine_shaft_approx;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 3px;
+  color: $white;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 10px;
+}
+
+.ui-slider {
+  position: relative;
+  text-align: left;
+  .ui-slider-handle {
+    background: $url_1;
+    cursor: pointer;
+    height: 16px;
+    position: absolute;
+    width: 17px;
+    z-index: 2;
+  }
+  .ui-slider-range {
+    background-position: 0 0;
+    border: 0;
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+  &.ui-state-disabled {
+    .ui-slider-handle {
+      @extend %extend_90;
+    }
+    .ui-slider-range {
+      @extend %extend_90;
+    }
+  }
+}
+
+.ui-slider-horizontal {
+  background: $color_wild_sand_approx;
+  border: 1px solid $color_celeste_approx;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  -webkit-border-radius: 2px;
+  box-shadow: 0 0 2px $black_10 inset;
+  -moz-box-shadow: 0 0 2px $black_10 inset;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  -webkit-box-shadow: 0 0 2px $black_10 inset;
+  height: 6px;
+  .ui-slider-handle {
+    margin-left: -8.5px;
+    top: -5px;
+  }
+  .ui-slider-range {
+    background-color: $color_cerulean_approx;
+    border: 1px solid $color_allports_approx;
+    height: 100%;
+    top: -1px;
+  }
+  .ui-slider-range-min {
+    left: 0;
+  }
+  .ui-slider-range-max {
+    right: 0;
+  }
+}
+
+.ui-slider-vertical {
+  height: 100px;
+  width: .8em;
+  .ui-slider-handle {
+    left: -0.3em;
+    margin-bottom: -0.6em;
+    margin-left: 0;
+  }
+  .ui-slider-range {
+    left: 0;
+    width: 100%;
+  }
+  .ui-slider-range-min {
+    bottom: 0;
+  }
+  .ui-slider-range-max {
+    top: 0;
+  }
+}
+
+.docs {
+  > h2 {
+    font-size: 22px;
+  }
+  > h3 {
+    color: $color_suva_gray_approx;
+    font-size: 18px;
+  }
+  + .docs {
+    margin-top: 30px;
+  }
+}
+
+.docs-example {
+  background-color: $white;
+  border: 1px solid $mercury;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  margin: 20px 0 0;
+  overflow: hidden;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  padding: 39px 19px 14px;
+  position: relative;
+  .pre {
+    background: $color_alabaster_approx;
+    border: 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-top: 1px solid $mercury;
+    font-weight: normal;
+    margin: 0 -19px -14px;
+    padding: 19px;
+    .tag {
+      @extend %extend_91;
+    }
+    .atn {
+      @extend %extend_91;
+      color: $teal;
+    }
+    .pun {
+      @extend %extend_91;
+      color: $color_suva_gray_approx;
+      font-weight: normal;
+    }
+    .atv {
+      @extend %extend_91;
+      color: $color_crimson_approx;
+    }
+  }
+  &:after {
+    background-color: $color_alabaster_approx;
+    border: 1px solid $mercury;
+    border-radius: 0 0 3px 0;
+    -moz-border-radius: 0 0 3px 0;
+    -webkit-border-radius: 0 0 3px 0;
+    color: $color_star_dust_approx;
+    content: "Sample";
+    font-size: 11px;
+    left: -1px;
+    padding: 3px 15px;
+    position: absolute;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    top: -1px;
+  }
+}
+
+@media(max-width: 767px) {
+  body {
+    padding: 0 !important;
+  }
+  .wrapper {
+    padding: 20px 15px;
+  }
+}
+
+.radio.inline {
+  @extend %extend_12;
+}
+
+.checkbox.inline {
+  @extend %extend_12;
+}
+
+.nav > li > a:hover {
+  background: 0;
+}
+
+.form-horizontal .control-group {
+  @extend %extend_14;
+  + .control-group {
+    @extend %extend_15;
+  }
+}
+
+.form-vertical .control-group {
+  @extend %extend_14;
+  + .control-group {
+    @extend %extend_15;
+  }
+}
+
+.nav-user > a {
+  height: 20px;
+}
+
+.open > {
+  .btn-default.dropdown-toggle {
+    @extend %extend_34;
+    @extend %extend_35;
+  }
+  .btn-primary.dropdown-toggle {
+    @extend %extend_37;
+    @extend %extend_38;
+  }
+  .btn-success.dropdown-toggle {
+    @extend %extend_40;
+    @extend %extend_41;
+  }
+  .btn-info.dropdown-toggle {
+    @extend %extend_43;
+    @extend %extend_44;
+  }
+  .btn-warning.dropdown-toggle {
+    @extend %extend_46;
+    @extend %extend_47;
+  }
+  .btn-danger.dropdown-toggle {
+    @extend %extend_49;
+    @extend %extend_50;
+  }
+}
+
+.btn-group-lg > .btn {
+  @extend %extend_56;
+}
+
+.btn-group-sm > .btn {
+  @extend %extend_57;
+}
+
+.btn-group-xs > .btn {
+  @extend %extend_58;
+}
+
+input[type=button].btn-block {
+  @extend %extend_59;
+}
+
+input[type=reset].btn-block {
+  @extend %extend_59;
+}
+
+input[type=submit].btn-block {
+  @extend %extend_59;
+}
+
+.progress-success .bar {
+  @extend %extend_61;
+}
+
+.progress-warning .bar {
+  @extend %extend_62;
+}
+
+.progress-danger .bar {
+  @extend %extend_63;
+}
+
+.widget .progress {
+  margin-bottom: 0;
+}
+
+.stream-options a {
+  [class^="icon-"] {
+    @extend %extend_74;
+  }
+  [class*=" icon-"] {
+    @extend %extend_74;
+  }
+}
